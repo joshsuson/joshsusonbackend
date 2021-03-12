@@ -23,6 +23,11 @@ export default {
       type: "url",
     },
     {
+      name: "description",
+      title: "Description",
+      type: "string",
+    },
+    {
       name: "projectTask",
       title: "Project Task",
       type: "array",

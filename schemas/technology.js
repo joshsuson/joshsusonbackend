@@ -13,5 +13,10 @@ export default {
       title: "Color",
       type: "string",
     },
+    {
+      name: "logo",
+      title: "Logo",
+      type: "image",
+    },
   ],
 };
