@@ -8,6 +8,7 @@ import job from "./job";
 import technology from "./technology";
 import profile from "./profile";
 import values from "./values";
+import project from "./project";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -21,5 +22,6 @@ export default createSchema({
     technology,
     profile,
     values,
+    project,
   ]),
 });
